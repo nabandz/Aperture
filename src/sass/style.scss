@@ -6,6 +6,8 @@
 @import 'base/mixins';
 
 * {
+    font-family: 'Poppins', sans-serif;
+
     margin: 0;
     padding: 0;
     border: 0;
@@ -15,3 +17,5 @@
     max-width: 1360px;
     margin: 0 auto;
 }
+
+@import 'blocks/header.scss'
