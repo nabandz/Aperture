@@ -1,4 +1,8 @@
 .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     padding: 24px 0px;
     background-color: #000000;
     &__nav {

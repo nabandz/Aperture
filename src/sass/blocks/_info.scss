@@ -1,0 +1,23 @@
+.info {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    column-gap: 16px;
+    &__item {
+        display: flex;
+    }
+    &__icon {
+        max-height: 16px;
+        img {
+            width: 100%;
+        }
+    }
+    &__text {
+        margin-left: 6px;
+        font-weight: 400;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+}

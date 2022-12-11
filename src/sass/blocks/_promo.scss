@@ -1,0 +1,36 @@
+.promo {
+    min-height: 100vh;
+    background: url(../../img/Main.jpg) center (center/cover) no-repeat;
+    padding: 0 0 40px 0;
+    &__wrapper {
+        position: absolute;
+        bottom: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &__company {
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 2px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #C0C0C0;
+    }
+    &__title {
+        margin-top: 1px;
+        font-weight: 400;
+        font-size: 54px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__descr {
+        margin: 0 auto;
+        margin-top: 18px;
+        width: 580px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #C0C0C0;
+    }
+}
