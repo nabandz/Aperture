@@ -1,0 +1,11 @@
+.sunset {
+    height: 600px;
+    background: url(../../img/Mount.jpg) center (center/cover) no-repeat;
+    position: relative;
+    &__content {
+        width: 298px;
+        position: absolute;
+        top: 260px;
+        right: 20px;
+    }
+}
