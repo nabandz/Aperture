@@ -1,0 +1,30 @@
+.gear {
+    position: relative;
+    height: 540px;
+    background-color: #000000;
+    &__content {
+        padding-top: 173px;
+        width: 514px;
+    }
+    &__subtitle {
+        margin-top: 6px;
+    }
+    &__description {
+        margin-top: 14px;
+    }
+    &__button {
+        margin-top: 20px;
+    }
+    &__img {
+        position: absolute;
+        display: flex;
+        top: 0;
+        left: 50%;
+        width: 50%;
+        max-height: 100%;
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}

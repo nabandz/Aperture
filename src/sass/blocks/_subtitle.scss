@@ -3,4 +3,10 @@
     font-size: 23px;
     text-align: center;
     color: #C0C0C0;
+    &_big {
+        text-align: left;
+        font-weight: 400;
+        font-size: 28px;
+        color: #FFFFFF;
+    }
 }
