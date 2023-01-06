@@ -1,0 +1,21 @@
+.clients {
+    background-color: #000000;
+    padding: 113px 0 140px 0;
+    &__subtitle {
+        margin-top: 15px;
+    }
+    &__wrapper {
+        margin-top: 80px;
+        display: grid;
+        grid-template: repeat(1, 128px) / repeat(5, 128px);
+        align-items: center;
+        justify-content: center;
+        column-gap: 109px;
+    }
+    &__item {
+        width: 128px;
+        img {
+            width: 100%;
+        }
+    }
+}
