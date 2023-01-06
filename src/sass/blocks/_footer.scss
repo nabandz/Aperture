@@ -28,11 +28,15 @@
         }
     }
     &__item {
+        position: relative;
         text-decoration: none;
         font-weight: 400;
         font-size: 14px;
         line-height: 20px;
         color: #FFFFFF;
+        &:hover {
+            text-decoration: underline;
+        }
     }
     &__subscribe {
         .devider {
@@ -45,6 +49,7 @@
     &__form {
         position: relative;
         input {
+            outline: none;
             padding: 11px 15px;
             width: 458px;
             height: 52px;

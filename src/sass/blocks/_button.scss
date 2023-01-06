@@ -10,6 +10,8 @@
     color: #000000;
     padding: 0 15px;
     text-align: end;
+    cursor: pointer;
+    transition: all .5s ease;
     &::before {
         content: '';
         position: absolute;
@@ -19,6 +21,17 @@
         left: 15px;
         top: 50%;
         transform: translateY(-50%);
+    }
+    &:hover {
+        background: #C0C0C0;
+    }
+    &_main {
+        width: 155px;
+        height: 42px;
+        text-align: center;
+        &::before {
+            background: none;
+        }
     }
     &_big {
         width: 152px;
