@@ -1,0 +1,17 @@
+.help {
+    padding: 113px 0 108px 0;
+    background-color: #000000;
+    &__title {
+        display: block;
+        margin: 0 auto;
+        width: 571px;
+    }
+    &__subtitle {
+        margin-top: 15px;
+    }
+    &__button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 22px;
+    }
+}
