@@ -1,0 +1,11 @@
+.monstera {
+    height: 600px;
+    background: url(../../img/Leafs.jpg) center (top/cover) no-repeat;
+    position: relative;
+    &__content {
+        width: 273px;
+        position: absolute;
+        top: 260px;
+        right:87px;
+    }
+}
