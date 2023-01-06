@@ -1,0 +1,11 @@
+.star {
+    height: 600px;
+    background: url(../../img/Stars.jpg) center (bottom/cover) no-repeat;
+    position: relative;
+    &__content {
+        width: 241px;
+        position: absolute;
+        top: 260px;
+        right:119px;
+    }
+}
