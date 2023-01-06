@@ -10,7 +10,7 @@
     color: #000000;
     padding: 0 15px;
     text-align: end;
-    &::before{
+    &::before {
         content: '';
         position: absolute;
         width: 16px;
@@ -28,5 +28,9 @@
         height: 30px;
         background: #000000;
         border-radius: 11px;
+        &::before {
+            background: url(../../icons/Aperture-Icon-Light.svg) no-repeat center;
+            left: 23px;
+        }
     }
 }

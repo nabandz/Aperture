@@ -12,6 +12,20 @@
     border: 0;
 
     box-sizing: border-box;
+
+    ::-webkit-scrollbar {
+        width: 7px;
+        background-color: #000000;
+    }
+      
+    ::-webkit-scrollbar-thumb {
+        border-radius: 25px;
+        background-color: #C0C0C0;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .container {
