@@ -10,11 +10,20 @@
     margin: 0;
     padding: 0;
     border: 0;
+
+    box-sizing: border-box;
 }
 
 .container {
     max-width: 1360px;
     margin: 0 auto;
+}
+
+.devider {
+    margin: 40px 0;
+    height: 2px;
+    width: 100%;
+    background: #FFFFFF;
 }
 
 @import 'blocks/header.scss';
@@ -31,3 +40,5 @@
 @import 'blocks/clients';
 @import 'blocks/star';
 @import 'blocks/help';
+@import 'blocks/footer';
+@import 'blocks/text';

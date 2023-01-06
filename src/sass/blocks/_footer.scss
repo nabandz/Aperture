@@ -1,0 +1,69 @@
+.footer {
+    padding: 100px 0;
+    background-color: #000000;
+    &__wrapper {
+        display: grid;
+        grid-template: repeat(3, auto auto) / repeat(2, 458px);
+        justify-content: space-between;
+        .devider {
+            grid-column: 1 / 3;
+        }
+    }
+    &__info {
+        display: grid;
+        grid-template: repeat(1, auto) / repeat(2, 221px);
+    }
+    &__links {
+        display: grid;
+        grid-template: repeat(4, 20px) / repeat(1, auto);
+        grid-auto-rows: 20px;
+        row-gap: 10px;
+        P {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #C0C0C0;
+        }
+    }
+    &__item {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    &__subscribe {
+        .devider {
+            margin-top: 20px;
+        }
+    }
+    &__text {
+        margin-top: 20px;
+    }
+    &__form {
+        position: relative;
+        input {
+            padding: 11px 15px;
+            width: 458px;
+            height: 52px;
+            background: #F9FAFB;
+            border: 1px solid #E5E7EB;
+            border-radius: 12px;
+        }
+    }
+    &__button {
+        position: absolute;
+        top: 11px;
+        right: 15px;
+    }
+    &__socials {
+        display: grid;
+        grid-template: repeat(1, auto) / repeat(3, 24px);
+        column-gap: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: end;
+    }
+}
