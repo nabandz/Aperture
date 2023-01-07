@@ -12,7 +12,25 @@
         gap: 16px 16px;
     }
     &__item {
+        --x: 0;
+        --y: 0;
+        --d: 50;
         position: relative;
+        overflow: hidden;
+        &:hover {
+            --d: 20;     
+            &::after, img {
+                transform: translate(calc(var(--x) / var(--d) * 1px), calc(var(--y) / var(--d) * 1px));
+            }
+        }
+    }
+    &__img {
+        width: 110%;
+        object-fit: cover;
+        position: absolute;
+        top: -5%;
+        left: -5%;
+        transition: transform 0.4s cubic-bezier(.23,.44,.29,.9);
     }
     &__content {
         position: absolute;

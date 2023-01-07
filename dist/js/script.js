@@ -1,6 +1,7 @@
 window.addEventListener('DOMContentLoaded', function() {
 
     const header = document.querySelector('.header');
+    const cards = document.querySelectorAll('.what-we__item');
 
     //Header
     window.addEventListener('scroll', function() {
@@ -9,5 +10,20 @@ window.addEventListener('DOMContentLoaded', function() {
         } else {
             header.classList.remove('header_active');
         }
+    });
+
+    //Cards
+    cards.forEach(card => {
+        card.addEventListener('mousemove', function(e) {
+            const ract = card.getBoundingClientRect();
+
+            card.style.setProperty('--x', e.clientX - (ract.left + Math.floor(ract.width / 2)));
+            card.style.setProperty('--y', e.clientY - (ract.top + Math.floor(ract.height / 2)));
+        });
+
+        card.addEventListener('mouseleave', function(e) {
+            card.style.setProperty('--x', 0);
+            card.style.setProperty('--y', 0);
+        });
     });
 });
