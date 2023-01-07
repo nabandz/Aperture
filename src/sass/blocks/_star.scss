@@ -1,6 +1,7 @@
 .star {
     height: 600px;
     background: url(../../img/Stars.jpg) center (bottom/cover) no-repeat;
+    background-attachment: fixed;
     position: relative;
     &__content {
         width: 241px;

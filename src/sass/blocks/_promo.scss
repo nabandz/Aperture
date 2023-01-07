@@ -1,6 +1,7 @@
 .promo {
     min-height: 100vh;
     background: url(../../img/Main.jpg) center (center/cover) no-repeat;
+    background-attachment: fixed;
     padding: 0 0 40px 0;
     &__wrapper {
         position: absolute;

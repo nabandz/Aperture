@@ -7,6 +7,7 @@
     column-gap: 16px;
     &__item {
         display: flex;
+        align-items: center;
     }
     &__icon {
         max-height: 16px;

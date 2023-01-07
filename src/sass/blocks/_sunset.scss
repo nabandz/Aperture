@@ -1,6 +1,7 @@
 .sunset {
     height: 600px;
     background: url(../../img/Mount.jpg) center (top/cover) no-repeat;
+    background-attachment: fixed;
     position: relative;
     &__content {
         width: 298px;

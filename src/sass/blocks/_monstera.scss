@@ -1,6 +1,7 @@
 .monstera {
     height: 600px;
     background: url(../../img/Leafs.jpg) center (top/cover) no-repeat;
+    background-attachment: fixed;
     position: relative;
     &__content {
         width: 273px;
