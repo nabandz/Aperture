@@ -1,10 +1,12 @@
 .header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 24px 0px;
     background-color: #000000;
+    z-index: 5;
+    transition: 0.4s;
     &__nav {
         display: flex;
         justify-content: space-between;
@@ -42,5 +44,8 @@
         &:hover::before {
             width: 100%;
         }
+    }
+    &_active {
+        box-shadow: 0 3px 25px rgb(37 37 37 / 90%);
     }
 }
