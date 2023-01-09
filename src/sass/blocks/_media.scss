@@ -1,0 +1,46 @@
+@media (max-width: 1440px) {
+    
+}
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 932px;
+    }
+    .button {
+        &_main {
+            width: 140px;
+            height: 40px;
+        }
+    }
+    .header {
+        &__list {
+            column-gap: 20px;
+        }
+        &__link {
+            font-size: 13px;
+        }
+    }
+    .gear {
+        &__content {
+        width: 436px;
+        }
+    }
+    .clients {
+        &__wrapper {
+            column-gap: 60px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+ 
+}

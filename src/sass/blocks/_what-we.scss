@@ -7,8 +7,9 @@
     &__wrapper {
         margin-top: 42px;
         display: grid;
-        grid-template: repeat(2, 600px) / repeat(2, 576px);
+        grid-template: repeat(2, 600px) / repeat(auto-fill, 576px);
         justify-content: center;
+        grid-auto-rows: minmax(600px,auto);
         gap: 16px 16px;
     }
     &__item {
