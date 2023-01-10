@@ -6,15 +6,12 @@
     }
     &__wrapper {
         margin-top: 80px;
-        display: grid;
-        grid-template: repeat(1, 128px) / repeat(5, 128px);
-        align-items: center;
-        justify-content: center;
-        column-gap: 109px;
     }
     &__item {
+        height: 78px;
         width: 128px;
         img {
+            height: 100%;
             width: 100%;
         }
     }

@@ -26,4 +26,26 @@ window.addEventListener('DOMContentLoaded', function() {
             card.style.setProperty('--y', 0);
         });
     });
+
+    //Slider
+    const swiper = new Swiper('.clients__slider', {
+        loop: true,
+        allowTouchMove: false,
+    
+        autoplay: {
+            delay: 1000,
+        },
+        speed: 3000,
+    
+        breakpoints: {
+            1200: {
+                slidesPerView: 5,
+                spaceBetween: 100
+            },
+            992: {
+                slidesPerView: 4,
+                spaceBetween: 75
+            }
+        }
+    });
 });
