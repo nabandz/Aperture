@@ -2,6 +2,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    height: 90px;
     width: 100%;
     padding: 24px 0px;
     background-color: #000000;
@@ -10,12 +11,13 @@
     &__nav {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         padding: 0px 100px;
     }
     &__logo {
         display: flex;
         align-items: center;
-        max-width: 128px;
+        min-width: 128px;
         img {
             width: 100%;
         }
@@ -43,6 +45,34 @@
         }
         &:hover::before {
             width: 100%;
+        }
+    }
+    &__menu-button {
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 30px;
+        height: 20px;
+        span {
+            height: 2px;
+            width: 85%;
+            border-radius: 14px;
+            background-color: #FFFFFF;
+            transition: all .5s ease;
+            &:nth-child(2) {
+                width: 100%;
+            }
+            &:nth-child(3) {
+                width: 75%;
+            }
+        }
+        &:hover {
+            span {
+                &:nth-child(1n) {
+                    width: 100%;
+                }
+            }
         }
     }
     &_active {
