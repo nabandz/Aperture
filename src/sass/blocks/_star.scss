@@ -1,16 +1,14 @@
 .star {
-    height: 600px;
+    padding: 250px 0;
     background: url(../../img/Stars.jpg) center (bottom/cover) no-repeat;
     background-attachment: fixed;
     position: relative;
     &__wrapper {
-        position: relative;
         width: 100%;
+        display: flex;
+        justify-content: flex-end;
     }
     &__content {
-        width: 243px;
-        position: absolute;
-        top: 260px;
-        right:0px;
+        width: 300px;
     }
 }

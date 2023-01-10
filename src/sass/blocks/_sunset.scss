@@ -1,16 +1,14 @@
 .sunset {
-    height: 600px;
+    padding: 260px 0;
     background: url(../../img/Mount.jpg) center (top/cover) no-repeat;
     background-attachment: fixed;
     position: relative;
     &__wrapper {
-        position: relative;
         width: 100%;
+        display: flex;
+        justify-content: flex-end;
     }
     &__content {
-        width: 298px;
-        position: absolute;
-        top: 260px;
-        right:0px;
+        width: 300px;
     }
 }

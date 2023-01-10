@@ -5,16 +5,38 @@
     .container {
         max-width: 1140px;
     }
+    .header {
+        &__nav {
+            padding: 0 75px;
+        }
+    }
 }
 
 @media (max-width: 992px) {
     .container {
         max-width: 932px;
     }
+    .title {
+        font-size: 35px;
+        &_mini {
+            font-size: 13px;
+        }
+    }
+    .description {
+        font-size: 13px;
+    }
+    .subtitle {
+        font-size: 20px;
+    }
     .button {
+        width: 132px;
+        font-size: 13px;
         &_main {
             width: 140px;
             height: 40px;
+        }
+        &_email {
+            width: 60px;
         }
     }
     .header {
@@ -25,15 +47,70 @@
             font-size: 13px;
         }
     }
+    .promo {
+        &__company {
+            font-size: 12px;
+        }
+        &__title {
+            font-size: 50px;
+        }
+        &__descr {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    }
+    .what-we {
+        padding: 70px 0;
+        &__subtitle {
+            margin-top: 10px;
+        }
+        &__description {
+            margin-top: 5px;
+        }
+        &__button {
+            margin-top: 10px;
+        }
+    }
+    .sunset, .monstera, .star {
+        padding: 200px 0;
+    }
     .gear {
         &__content {
-        width: 436px;
+            width: 436px;
         }
     }
     .clients {
+        padding: 90px 0 100px 0;
+        &__subtitle {
+            margin-top: 10px;
+        }
         &__wrapper {
+            margin-top: 60px;
             column-gap: 60px;
         }
+    }
+    .help {
+        padding: 90px 0 100px 0;
+    }
+    .footer {
+        padding: 50px 0;
+        &__links { 
+            p {
+                font-size: 13px;
+            }
+        }
+        &__item {
+            font-size: 13px;
+        }
+        &__form {
+            input {
+                width: 455px;
+            }
+        }
+        &__social {
+            width: 20px;
+            height: 20px;
+        }  
     }
 }
 
