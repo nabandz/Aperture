@@ -2,13 +2,12 @@
     position: fixed;
     top: 0;
     left: 0;
-    height: 90px;
     width: 100%;
-    padding: 24px 0px;
+    padding: 25px 0px;
     background-color: #000000;
     z-index: 5;
     transition: 0.4s;
-    &__nav {
+    &__wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -25,6 +24,7 @@
     &__list {
         display: flex;
         align-items: center;
+        text-align: center;
         column-gap: 32px;
     }
     &__link {
